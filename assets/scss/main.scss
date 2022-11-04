@@ -1,0 +1,32 @@
+html,
+body {
+    height: 100%;
+}
+/*@media (min-width: 992px) { 
+   .navbar{
+      margin-top:0;
+      top:45px;
+    }
+}*/
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+
+.footer {
+    height: 260px;
+   // background-color: $bg-dark;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}

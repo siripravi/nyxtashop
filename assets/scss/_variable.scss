@@ -1,0 +1,35 @@
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Signika:wght@300;400;500;600;700&display=swap');
+
+$heading: 'Signika', sans-serif;
+$body: 'Overpass', sans-serif;
+
+// colors
+$p: #999;
+$white: #fff;
+$black: #000;
+$black-1: #242424;
+$black-2: #111111;
+$black-3: #2A2A36;
+$black-4: #212A34;
+$sky: #E9F1FF;
+$gold: #ffd700;
+$color-1: #ebecf1;
+$color-2: #FF2D65;
+$color-3: #FF5A3D;
+$color-4: #1b1949;
+$color-5: #0c1350;
+$color-6: #004e92;
+$color-7: #0b103a;
+$color-8: #FF5A3D;
+$color-9: #FF2D65;
+
+$body-bg: #f6f7f9;
+$gradient-1: linear-gradient(45deg, $color-2, $color-3);
+$gradient-2: linear-gradient(-45deg, $color-2, $color-3);
+$gradient-3: linear-gradient(45deg, $color-5, $color-6);
+$gradient-4: linear-gradient(-45deg, $color-5, $color-6);
+$gradient-5: linear-gradient(-45deg, $color-8, $color-9);
+$gradient-6: linear-gradient(45deg, $color-8, $color-9);
+
+$enable-grid-classes : true

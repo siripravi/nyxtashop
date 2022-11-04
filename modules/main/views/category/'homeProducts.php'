@@ -1,0 +1,16 @@
+<?php
+    echo ListView::widget([
+        'dataProvider' => $dataProvider,
+        'itemView' => '_item',
+         'layout' => '<div class="row products_row">{items}</div>',
+        'emptyTextOptions' => [
+            'class' => 'alert alert-danger',
+        ],
+        /*'options' => [
+            'class' => 'list-group mb-4',
+        ],*/
+        'itemOptions' => [
+            'class' => 'col-xl-4 col-md-6',
+        ],
+    ]); 
+    ?>

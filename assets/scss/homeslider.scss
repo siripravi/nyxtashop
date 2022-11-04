@@ -1,0 +1,33 @@
+/*** HOME SLIDER SHOW  ***/
+$color-1:#0c3339;
+#home-slider{ background-color: #0c3339; }
+.slider-img {
+    width: 100%;
+    height: auto;
+}
+#home-slider .carousel-inner .carousel-item > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    animation: zoomin 10s linear infinite;
+}
+#home-slider .carousel-indicators{
+    button{
+        border-radius: 50%;
+        width: 10px !important;
+        height: 10px !important;
+
+    }
+    button.active {
+        background-color: $color-1 !important;
+
+    }
+}
+#home-slider .carousel-caption{
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: inherit;
+}
+#home-slider .carousel-control-prev i,#home-slider .carousel-control-next i{
+     font-weight:900; font-size:3.2em;
+}

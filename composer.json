@@ -21,7 +21,7 @@
   "require": {
     "php": ">=7.2.5",
     "yiisoft/yii2": "^2.0.42",
-    "yiisoft/yii2-bootstrap5": "*",
+    "yiisoft/yii2-bootstrap5": "~2.0.2",
     "yiisoft/yii2-swiftmailer": "~2.0.0",
     "kartik-v/yii2-widget-fileinput": "^1.1.1",
     "himiklab/yii2-recaptcha-widget": "~2.1.1",

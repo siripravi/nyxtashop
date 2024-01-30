@@ -1,91 +1,96 @@
 {
-    "name": "yiisoft/yii2-app-basic",
-    "description": "Yii 2 Basic Project Template",
-    "keywords": ["yii2", "framework", "basic", "project template"],
-    "homepage": "http://www.yiiframework.com/",
-    "type": "project",
-    "license": "BSD-3-Clause",
-    "support": {
-        "issues": "https://github.com/yiisoft/yii2/issues?state=open",
-        "forum": "http://www.yiiframework.com/forum/",
-        "wiki": "http://www.yiiframework.com/wiki/",
-        "irc": "irc://irc.freenode.net/yii",
-        "source": "https://github.com/yiisoft/yii2"
+  "name": "yiisoft/yii2-app-basic",
+  "description": "Yii 2 Basic Project Template",
+  "keywords": [
+    "yii2",
+    "framework",
+    "basic",
+    "project template"
+  ],
+  "homepage": "http://www.yiiframework.com/",
+  "type": "project",
+  "license": "BSD-3-Clause",
+  "support": {
+    "issues": "https://github.com/yiisoft/yii2/issues?state=open",
+    "forum": "http://www.yiiframework.com/forum/",
+    "wiki": "http://www.yiiframework.com/wiki/",
+    "irc": "irc://irc.freenode.net/yii",
+    "source": "https://github.com/yiisoft/yii2"
+  },
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=7.2.5",
+    "yiisoft/yii2": "^2.0.42",
+    "yiisoft/yii2-bootstrap5": "*",
+    "yiisoft/yii2-swiftmailer": "~2.0.0",
+    "kartik-v/yii2-widget-fileinput": "^1.1.1",
+    "himiklab/yii2-recaptcha-widget": "2.1.1",
+    "wbraganca/yii2-dynamicform": "2.0.3",
+    "kartik-v/yii2-widget-select2": "2.2.5",
+    "kartik-v/yii2-widget-typeahead": "1.0.4",
+    "yiisoft/yii2-queue": "^2.3",
+    "phpmailer/phpmailer": "~6.5.0",
+    "phpoffice/phpspreadsheet": "^1.19",
+    "kartik-v/yii2-widgets": "3.4.1",
+    "omgdef/yii2-multilingual-behavior": "~2.0",
+    "voskobovich/yii2-linker-behavior": "^4.0",
+    "yiisoft/yii2-imagine": "~2.2.0",
+    "2amigos/yii2-ckeditor-widget": "2.1.0",
+    "himiklab/yii2-sortable-grid-view-widget": "1.0.11",
+    "tpmanc/yii2-imagick": "1.3.2",
+    "yii-dream-team/yii2-upload-behavior": "1.2.3",
+    "yiidoc/yii2-redactor": "2.0.1",
+    "twbs/bootstrap": "4.x",
+    "bower-asset/fontawesome": "~5",
+    "bower-asset/sortablejs": "~1.6.0",
+    "hail812/yii2-adminlte3": "~1.1",
+    "kartik-v/yii2-icons": "1.4.8",
+    "dominus77/yii2-owl-carousel-2": "1.0.4",
+    "siripravi/yii2-slideradmin": "^1.1.0",
+    "lesha724/yii2-math-captcha": "0.1.2"
+  },
+  "require-dev": {
+    "yiisoft/yii2-debug": "~2.1.0",
+    "yiisoft/yii2-gii": "~2.1.0",
+    "yiisoft/yii2-faker": "~2.0.0"
+  },
+  "config": {
+    "process-timeout": 1800,
+    "fxp-asset": {
+      "enabled": false
     },
-    "minimum-stability": "stable",
-    "require": {
-        "php": ">=7.2.5",        
-		"yiisoft/yii2": "^2.0.42",		
-		"yiisoft/yii2-bootstrap5": "*",
-        "yiisoft/yii2-swiftmailer": "~2.0.0",
-        "kartik-v/yii2-widget-fileinput": "^1.1.1",
-        "himiklab/yii2-recaptcha-widget" : "2.1.1",
-        "wbraganca/yii2-dynamicform": "2.0.3",
-        "kartik-v/yii2-widget-select2": "2.2.5",
-        "kartik-v/yii2-widget-typeahead": "1.0.4",
-        "yiisoft/yii2-queue": "^2.3",
-        "phpmailer/phpmailer": "~6.5.0",
-        "phpoffice/phpspreadsheet": "^1.19",		
-		"kartik-v/yii2-widgets": "3.4.1",
-		"omgdef/yii2-multilingual-behavior": "~2.0",
-		"voskobovich/yii2-linker-behavior": "^4.0",
-		 "yiisoft/yii2-imagine": "~2.2.0",
-		 "2amigos/yii2-ckeditor-widget": "2.1.0",
-		 "himiklab/yii2-sortable-grid-view-widget": "1.0.11",
-		 "tpmanc/yii2-imagick": "1.3.2",
-		 "yii-dream-team/yii2-upload-behavior": "1.2.3",        
-		 "yiidoc/yii2-redactor": "2.0.1",
-         "twbs/bootstrap": "4.x", 
-         "bower-asset/fontawesome": "~5",
-         "bower-asset/sortablejs": "~1.6.0",        
-         "hail812/yii2-adminlte3": "~1.1" ,
-         "kartik-v/yii2-icons": "1.4.8",
-         "dominus77/yii2-owl-carousel-2": "1.0.4",
-         "siripravi/yii2-slideradmin": "^1.1.0",
-         "lesha724/yii2-math-captcha": "0.1.2"  	
+    "platform": {
+      "php": "7.2.5"
     },
-    "require-dev": {
-        "yiisoft/yii2-debug": "~2.1.0",       
-		"yiisoft/yii2-gii": "~2.1.0",
-        "yiisoft/yii2-faker": "~2.0.0"
-    },
-    "config": {
-        "process-timeout": 1800,
-        "fxp-asset": {
-            "enabled": false
-        },
-        "platform": {
-            "php": "7.2.5"
-        },
-        "preferred-install": "dist",
-        "allow-plugins": {
-            "yiisoft/yii2-composer": true,
-            "luyadev/luya-composer": true
-        }
-    },
-    "scripts": {
-        "post-create-project-cmd": [
-            "yii\\composer\\Installer::postCreateProject"
-        ]
-    },
-    "extra": {
-        "yii\\composer\\Installer::postCreateProject": {
-            "setPermission": [
-                {
-                    "runtime": "0777",
-                    "web/assets": "0777",
-                    "yii": "0755"
-                }
-            ],
-            "generateCookieValidationKey": [
-                "config/web.php"
-            ]
-        }
-    },
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://asset-packagist.org"
-        }
+    "preferred-install": "dist",
+    "allow-plugins": {
+      "yiisoft/yii2-composer": true,
+      "luyadev/luya-composer": true
+    }
+  },
+  "scripts": {
+    "post-create-project-cmd": [
+      "yii\\composer\\Installer::postCreateProject"
     ]
+  },
+  "extra": {
+    "yii\\composer\\Installer::postCreateProject": {
+      "setPermission": [
+        {
+          "runtime": "0777",
+          "web/assets": "0777",
+          "yii": "0755"
+        }
+      ],
+      "generateCookieValidationKey": [
+        "config/web.php"
+      ]
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
 }

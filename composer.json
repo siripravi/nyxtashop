@@ -41,7 +41,7 @@
          "hail812/yii2-adminlte3": "~1.1" ,
          "kartik-v/yii2-icons": "@dev",
          "dominus77/yii2-owl-carousel-2": "dev-master",
-         "siripravi/yii2-slideradmin": "@dev",
+         "siripravi/yii2-slideradmin": "1.0.0",
          "lesha724/yii2-math-captcha": "0.1.2"  	
     },
     "require-dev": {
